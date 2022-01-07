@@ -6,7 +6,7 @@ import { MessageDto } from './dto/message.dto';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get("message")
+  @Get('message')
   getMessage(): Promise<MessageDto> {
     const message = this.appService.getMessage();
 

@@ -1,6 +1,4 @@
-export class  MessageDto {
-    id: number;
-    message : string;
-
-
+export class MessageDto {
+  id: number;
+  message: string;
 }
